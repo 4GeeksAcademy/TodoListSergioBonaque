@@ -1,12 +1,11 @@
 import React,{useState} from "react";
-
-
+import Title from "./Title.jsx"
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="container">
-			<h1>My Todos</h1>
+		<Title/>
 			<ul className="ul">
 				<li>
 					<input className="input" type="text" placeholder="What do you need to do?"></input>
